@@ -1,0 +1,204 @@
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+    /* CSS rules for small screens and mobile devices */
+    .footer{
+        height: 400px;
+        display: block;
+        text-align: center;
+    }
+    .p1-div{
+        display: block;
+    }
+    h1{
+        margin-bottom: 0px;
+    }
+    .img1{
+        width:60%;
+    }
+    .imp-para{
+        font-size: 1.5rem;
+    }
+    .ul-list{
+        line-height: 1.5;
+        margin: 25px;
+        display: block;
+    }
+    .imgs p{
+        justify-content: start;
+    }
+    .p1{
+        font-size: 14px;
+    }
+    .wiki-div{
+        padding: 10px;
+    }
+    .get-start{
+        margin:20px 0px;
+    }
+    .f-p-1 p{
+        width: 100%;
+        font-size: 12px;
+    }
+    .f-p-1 img{
+        height: 60px;
+    }
+    .f-p-1{
+        width:100%;
+    }
+    .f-p-2 ul li a{
+        font-size: 12px;
+        line-height: 1rem;
+    }
+    .f-p-3 ul li a{
+        font-size: 12px;
+        line-height: 1rem;
+    }
+    .f-p-4{
+        margin-top: 10px;
+    }
+    .f-p-4 img{
+        height: 40px;
+        margin-top:0px;
+    }
+    .f-p-4 ul{
+        margin-top: 10px;
+        gap: 1rem;
+    }
+    .f-p-4 ul li{
+        border-radius: 0%;
+        border: none;
+        background: transparent;
+    }
+    .f-p-4 ul li a{
+        color:#fff;
+    }
+    .foot-sec2{
+        padding:10px;
+    }
+    .t-p{
+        font-size: 12px;
+        line-height: 1.2rem;
+    }
+  }
+  
+  /* Tablets and Small Laptops */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* CSS rules for tablets and small laptops */
+    .all{
+        background-color: #000316;
+        color: #7ce900;
+    }
+    section{
+        margin-top: 100px;
+        background-image: url("bg-img.jpg");
+        background-size: cover;
+    }
+    .img1{
+        width:30%;
+    }
+    .imp-para{
+        font-size: 26px;
+        margin:30px 30px 30px 0px
+    }
+    .ul-list{
+        font-size:1rem;
+        line-height: 2.5rem;
+        display: block;
+    }
+    .p1-div{
+        gap:0;
+    }
+    .get-start{
+        margin: 0px 200px;
+    }
+    .sec{
+        background-color: #17181F;
+    }
+    .f-p-1 p{
+        font-size: 12px;
+    }
+    .footer{
+        gap:0rem;
+        padding: 15px;
+    }
+    .f-p-2 ul li a{
+        font-size: 12px;
+    }
+    .f-p-3 ul li a{
+        font-size: 12px;
+    }
+    .f-p-4 img{
+        height: 50px;
+    }
+    .f-p-4 ul {
+        gap:0rem;
+    }
+    .f-p-4 ul li{
+        height: 30px;
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        border: none;
+    }
+    .f-p-4 ul li a{
+        color: #fff;
+        font-size: 0.9rem;
+    }
+    .t-p{
+        font-size: 13px;
+    }
+  }
+  
+  /* Medium-sized Laptops and Desktops */
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* CSS rules for medium-sized laptops and desktops */
+    .p1{
+        font-size: 20px;
+    }
+    .p1-div{
+        gap:0;
+    }
+    .get-start{
+        margin:50px 200px;
+    }
+    .f-p-4 ul li{
+        height: 30px;
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background: #8fff00;
+    }
+    .f-p-4 ul li a{
+        color: #17181F;
+        font-size: 1.2rem;
+    }
+  }
+  
+  /* Large Laptops and Desktops */
+  @media only screen and (min-width: 1200px) {
+    /* CSS rules for large laptops and desktops */
+  }
+  
+  /* Landscape Viewports */
+  @media only screen and (orientation: landscape) {
+    /* CSS rules for landscape orientation */
+  }
+  
+  /* Portrait Viewports */
+  @media only screen and (orientation: portrait) {
+    /* CSS rules for portrait orientation */
+  }
+  
+  /* High-resolution Displays (Retina) */
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+         only screen and (min--moz-device-pixel-ratio: 2),
+         only screen and (-o-min-device-pixel-ratio: 2/1),
+         only screen and (min-device-pixel-ratio: 2),
+         only screen and (min-resolution: 192dpi),
+         only screen and (min-resolution: 2dppx) {
+    /* CSS rules for high-resolution displays */
+  }
